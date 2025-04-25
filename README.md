@@ -15,10 +15,10 @@ File or Folder | Purpose
 
 ## Next Steps
 
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
+- open the teminal run `npm install`
+- then run `cds deploy --to sqlite`
+- then `npm start`
+- navigate to test.http and click send request on first http request
 
 ## Learn More
 
