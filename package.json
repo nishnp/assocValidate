@@ -1,0 +1,19 @@
+{
+  "name": "assocValidate",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "8.9.2",
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "1.11.0",
+    "@cap-js/cds-types": "0.10.0"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  }
+}

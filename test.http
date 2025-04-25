@@ -1,0 +1,8 @@
+POST http://localhost:4004/odata/v4/process/createDeepProcess
+Content-Type: application/json
+
+{}
+
+####
+GET http://localhost:4004/odata/v4/process/Processes?$expand=activities,links($expand=fromActivity,toActivity)
+
