@@ -7,6 +7,8 @@ entity Processes: managed {
   state: String;
   activities: Association to many Activities on activities.process = $self;
   links: Composition of many ProcessLinks on links.process = $self;
+  // works when i have @cds.validate :false
+  // links: Composition of many ProcessLinks on links.process = $self @cds.validate : false ;
 }
 
 entity Activities: managed {
